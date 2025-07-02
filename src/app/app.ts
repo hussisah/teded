@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
-
+import { VideoList } from './components/video-list/video-list';
 @Component({
   selector: 'app-root',
-  imports: [],
+  standalone: true,
+  imports: [VideoList],
   templateUrl: './app.html',
-  styleUrl: './app.scss'
+  styleUrls: ['./app.scss']
 })
 export class App {
   protected title = 'teded';

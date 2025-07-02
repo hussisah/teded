@@ -4,19 +4,26 @@
       "id": 1,
       "title": "How to stay calm under pressure",
       "imageUrl": "assets/one.avif",
-      "author": "Noa Kageyama"
+      "author": "Aisha Muhammed"
     },
     {
       "id": 2,
       "title": "How to be the best version of yourself",
       "imageUrl": "assets/two.jpg",
-      "author": "Asmeret Asefaw Berhe"
+      "author": "Daniel Regan"
     },
     {
       "id": 3,
       "title": "How to face your fears",
       "imageUrl": "assets/three.png",
-      "author": "Megan Washington"
+      "author": "Abdul Balogun"
+    },
+    {
+      "id": 3,
+      "title": "How to get Money in nigeria",
+      "imageUrl": "assets/four.webp",
+      "author": "Emeka Okeke"
     }
+
   ]
 }
