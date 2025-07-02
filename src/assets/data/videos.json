@@ -1,0 +1,22 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "title": "How to stay calm under pressure",
+      "imageUrl": "assets/one.avif",
+      "author": "Noa Kageyama"
+    },
+    {
+      "id": 2,
+      "title": "How to be the best version of yourself",
+      "imageUrl": "assets/two.jpg",
+      "author": "Asmeret Asefaw Berhe"
+    },
+    {
+      "id": 3,
+      "title": "How to face your fears",
+      "imageUrl": "assets/three.png",
+      "author": "Megan Washington"
+    }
+  ]
+}
