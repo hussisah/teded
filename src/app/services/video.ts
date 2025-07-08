@@ -8,14 +8,11 @@ import videosData from '../../assets/data/videos.json';
 export class VideoService {
   private videos: Video[] = videosData.videos;
 
-  getFeaturedVideo(): Video {
-    return this.videos.slice(0, 1)[0]; // Using slice() to get first video
-  }
 
   getFeaturedVideos(): Video[] {
-    return this.videos.slice(0,2); 
+    return this.videos.slice(0); 
   }
   getOtherVideos(): Video[] {
-    return this.videos.slice(1); // Using slice() to get remaining videos
+    return this.videos.slice(1,4); // Using slice() to get remaining videos
   }
 }
