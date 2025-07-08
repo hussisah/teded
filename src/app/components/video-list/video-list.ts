@@ -10,11 +10,12 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./video-list.scss']
 })
 export class VideoList {
-  featuredVideo: any;
+  featuredVideos: any;
   otherVideos: any[] = [];
 
   constructor(private videoService: VideoService) {
-    this.featuredVideo = this.videoService.getFeaturedVideo();
+    
+    this.featuredVideos = this.videoService.getFeaturedVideos();
     this.otherVideos = this.videoService.getOtherVideos();
   }
 }

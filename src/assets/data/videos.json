@@ -1,19 +1,19 @@
 {
   "videos": [
     {
-      "id": 1,
+      "id": 0,
       "title": "How to stay calm under pressure",
       "imageUrl": "assets/one.avif",
       "author": "Aisha Muhammed"
     },
     {
-      "id": 2,
+      "id": 1,
       "title": "How to be the best version of yourself",
       "imageUrl": "assets/two.jpg",
       "author": "Daniel Regan"
     },
     {
-      "id": 3,
+      "id": 2,
       "title": "How to face your fears",
       "imageUrl": "assets/three.png",
       "author": "Abdul Balogun"
@@ -23,7 +23,15 @@
       "title": "How to get Money in nigeria",
       "imageUrl": "assets/four.webp",
       "author": "Emeka Okeke"
+    },
+
+    {
+      "id": 4,
+      "title": "How to get Money in nigeria",
+      "imageUrl": "assets/four.webp",
+      "author": "Emeka Okeke"
     }
+
 
   ]
 }

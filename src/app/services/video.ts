@@ -12,6 +12,9 @@ export class VideoService {
     return this.videos.slice(0, 1)[0]; // Using slice() to get first video
   }
 
+  getFeaturedVideos(): Video[] {
+    return this.videos.slice(0,2); 
+  }
   getOtherVideos(): Video[] {
     return this.videos.slice(1); // Using slice() to get remaining videos
   }
