@@ -12,7 +12,5 @@ export class VideoService {
   getFeaturedVideos(): Video[] {
     return this.videos.slice(0); 
   }
-  getOtherVideos(): Video[] {
-    return this.videos.slice(1,4); // Using slice() to get remaining videos
-  }
+ 
 }

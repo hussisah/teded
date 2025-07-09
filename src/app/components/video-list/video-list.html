@@ -10,8 +10,10 @@
       <div>
         <h2 class="text-xl font-semibold mb-4">More Videos</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <app-video-card *ngFor="let video of otherVideos" [video]="video"></app-video-card>
-        </div>
+        <app-video-card [video]="featuredVideos[1]"></app-video-card> 
+        <app-video-card [video]="featuredVideos[2]"></app-video-card>
+        <app-video-card [video]="featuredVideos[3]"></app-video-card>          
+      </div>
       
         <div class="mb-8">
         <h2 class="text-xl font-semibold mb-4">Featured Video</h2>

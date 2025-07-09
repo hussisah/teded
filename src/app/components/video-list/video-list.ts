@@ -11,11 +11,11 @@ import { CommonModule } from '@angular/common';
 })
 export class VideoList {
   featuredVideos: any;
-  otherVideos: any[] = [];
+
 
   constructor(private videoService: VideoService) {
     
     this.featuredVideos = this.videoService.getFeaturedVideos();
-    this.otherVideos = this.videoService.getOtherVideos();
+
   }
 }
