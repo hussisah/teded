@@ -2,34 +2,45 @@
   "videos": [
     {
       "id": 0,
+      "topic": "self-improvement",
       "title": "How to stay calm under pressure",
       "imageUrl": "assets/one.avif",
-      "author": "Aisha Muhammed"
+      "author": "Aisha Muhammed",
+      "date": "2023-10-01"
     },
     {
       "id": 1,
+      "topic": "self-improvement",
       "title": "How to be the best version of yourself",
       "imageUrl": "assets/two.jpg",
-      "author": "Daniel Regan"
+      "author": "Daniel Regan",
+      "date": "2023-10-02"
+
     },
     {
       "id": 2,
+      "topic": "self-improvement",
       "title": "How to face your fears",
       "imageUrl": "assets/three.png",
-      "author": "Abdul Balogun"
+      "author": "Abdul Balogun",
+      "date": "2023-10-03"
     },
     {
       "id": 3,
+      "topic": "Finance",
       "title": "How to get Money in nigeria",
       "imageUrl": "assets/four.webp",
-      "author": "Emeka Okeke"
+      "author": "Emeka Okeke",
+      "date": "2023-10-04"
     },
 
     {
       "id": 4,
+      "topic": "Politics",
       "title": "How to fight the power",
       "imageUrl": "assets/five.webp",
-      "author": "Emeka Okeke"
+      "author": "Emeka Okeke",
+      "date": "2023-10-05"
     }
 
 

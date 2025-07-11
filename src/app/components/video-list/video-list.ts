@@ -11,11 +11,13 @@ import { CommonModule } from '@angular/common';
 })
 export class VideoList {
   featuredVideos: any;
-
+  date: any[] = [];
+  topic: any[] = []; // Added topic property
 
   constructor(private videoService: VideoService) {
     
-    this.featuredVideos = this.videoService.getFeaturedVideos();
-
+    this.featuredVideos = this.videoService.getFeaturedVideos(); //slice method
+    this.date = this.videoService.getFeaturedVideos().map(video => video.date); //map method to get date
+    this.topic = this.videoService.getFeaturedVideos().map(video => video.topic); //map method to get topic
   }
 }

@@ -3,4 +3,6 @@ export interface Video {
   title: string;
   imageUrl: string;
   author: string;
+  date: string;
+  topic: string;
 }
