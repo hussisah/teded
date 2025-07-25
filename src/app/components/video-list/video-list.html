@@ -1,25 +1,17 @@
-  <div class="container mx-auto p-4">
-      <h1 class="text-2xl font-bold text-red-500 flex items-center justify-center h-scree mb-6">TED</h1>
-      
+  <div class="container mx-auto p-4"> 
       <div class="mb-8">
         <h2 class="text-xl font-semibold mb-4">Featured Video</h2>
-        <app-video-card [video]="featuredVideos[0]"></app-video-card> 
-        
+        <app-video-card [video]="featuredVideos"></app-video-card> 
       </div>
       
-      <div>
+      <div class="mt-3 flex flex-wrap gap-2">
+      
+        <span class="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded">
         <h2 class="text-xl font-semibold mb-4">More Videos</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <app-video-card [video]="featuredVideos[1]"></app-video-card> 
-        <app-video-card [video]="featuredVideos[2]"></app-video-card>
-        <app-video-card [video]="featuredVideos[3]"></app-video-card>  
-        <app-video-card [video]="featuredVideos[5]"></app-video-card>  
-        <app-video-card [video]="featuredVideos[6]"></app-video-card>   
-        <app-video-card [video]="featuredVideos[7]"></app-video-card>   
-      </div>
-      
-        <div class="mb-8">
-        <h2 class="text-xl font-semibold mb-4">More Featured Video</h2>
-        <app-video-card [video]="featuredVideos[4]"></app-video-card> 
+        <app-video-card *ngFor="let video of otherVideos" [video]="video"></app-video-card>
         </div>
-    </div>
+        </span>     
+      
+      </div>
+      </div>

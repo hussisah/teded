@@ -10,14 +10,15 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./video-list.scss']
 })
 export class VideoList {
+  otherVideos: any[] = [];
   featuredVideos: any;
   date: any[] = [];
   topic: any[] = []; // Added topic property
 
   constructor(private videoService: VideoService) {
-    
-    this.featuredVideos = this.videoService.getFeaturedVideos( ); //slice method
-    this.date = this.videoService.getFeaturedVideos().map(video => video.date); //map method to get date
-    this.topic = this.videoService.getFeaturedVideos().map(video => video.topic); //map method to get topic
-  }
+    this.featuredVideos = this.videoService.getFeaturedVideo();
+    this.otherVideos = this.videoService.getOtherVideos();
+    this.date = this.videoService.date();
+    this.topic = this.videoService.topic(); // Fetching topics from the service
+}
 }
