@@ -5,4 +5,6 @@ export interface Video {
   author: string;
   date: string;
   topic: string;
+  duration: string;
+  views: number;
 }
